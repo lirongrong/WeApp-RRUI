@@ -1,7 +1,7 @@
 ## 目录结构
 
 |——component 组件
-|    |——button
+|    |——button  <br>
 |    |——dialog
 |    |——footer
 |    |——result
@@ -16,3 +16,5 @@
 |    |——search    搜索页
 |    |——form      form表单
 |——utils
+
+<img src="images/rrui.gif"/>
