@@ -1,0 +1,20 @@
+{
+  "name": "WeApp-RRUI",
+  "homepage": "https://github.com/lirongrong/WeApp-RRUI",
+  "authors": [
+    "蓉蓉 李 <RR@DESKTOP-EAVLNT2>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.7.0"
+  }
+}

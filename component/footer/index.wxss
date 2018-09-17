@@ -1,0 +1,5 @@
+.db{ display: block}
+.footer{ text-align: center;}
+.f-phone{   border-radius: 40rpx; padding:20rpx 32rpx;  box-shadow:0 0 12rpx 12rpx #f3f3f3; color: #19a6fe; font-size: 30rpx; width: 30%; margin: 20rpx auto;
+background: #fff;}
+.f-time{ font-size: 20rpx; color: #999999;}

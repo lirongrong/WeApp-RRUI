@@ -1,0 +1,4 @@
+<view class="footer">
+  <text class='f-phone db'>400-888-6666</text>
+  <text class='f-time db'>周一至周日 9:30-19:00</text>
+</view>

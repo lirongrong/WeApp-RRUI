@@ -1,0 +1,12 @@
+@import '/app'; 
+/*红包弹层*/
+.dialog_box{ position: fixed; left: 0 ;top: 0; right:0; bottom:0;}
+.dialog_box_bg{ position: absolute; left: 0; top:0; right:0; bottom:0; background: rgba(0, 0, 0, .5)}
+.red_paper_box{ position: absolute; left: 50%; margin-left: -40%; margin-top: 240rpx; border-radius: 15rpx; text-align: center; color: #fff; width: 80%; background: #c70201; max-width: 590rpx; overflow: hidden; height: 600rpx;}
+.red_pager_box_bg{ background: #e62602; border-radius: 100%; width: 140%; height: 100%; margin-left: -20%;   margin-top: -20%; position: absolute;}
+.red_paper_box_con{ z-index: 100; position: absolute; left: 0;right:0;}
+.red_paper_box_con text:first-child{ font-size: 80rpx;  padding-top:114rpx;}
+.red_paper_box_con text:last-child{ margin-top:76rpx;}
+.red_paper_box_icon{ width: 114rpx; height: 114rpx; line-height: 114rpx; background: #fbcd04; border-radius: 100%; position: absolute; left: 50%; margin-left: -57rpx; color: #000; top:420rpx; font-size: 60rpx;}
+
+

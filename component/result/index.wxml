@@ -1,0 +1,8 @@
+<view class="tc">
+  <icon class="icon_box {{isSuccess?'success':''}}">
+    <icon class="iconfont {{isSuccess?'icon-duigou':'icon-cuowu'}}"></icon> 
+  </icon>
+  <text class='result_text'>{{title}}</text>
+  <text class='result_text_yellow'>{{note}}</text>
+</view>
+

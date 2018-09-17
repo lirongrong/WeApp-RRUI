@@ -1,0 +1,16 @@
+@import "/app";
+.search{
+  padding:0 20rpx;
+  background-color:white;  
+  justify-content: center; box-shadow:0 0 12rpx 12rpx #f3f3f3;
+} 
+.searchInput{
+  height: 70rpx; 
+  line-height: 70rpx;
+  font-size: 28rpx;
+}
+.icon-search,.icon-menu{ margin-top:-8rpx; padding: 0 10rpx;}
+.subMenu{ position:fixed; left:0; right:0; top:0; bottom:0; z-index: 10;}  
+.subMenu_bg{ background:rgba(0,0,0,.4); top:0; left:0; right:0; bottom:0; z-index: 11; position: fixed;}
+.subMenu_con { background: #fff; right:0; left: 40%; bottom:0;top:0; padding:40rpx; padding-bottom: 140rpx;overflow-y: auto;z-index: 12; position: fixed;} 
+.subMenu_right_li{ font-size: 24rpx; border: 2rpx solid #e3e3e3; padding:20rpx; text-align: center; border-radius: 10rpx; margin-top:20rpx;}

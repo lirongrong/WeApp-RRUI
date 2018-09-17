@@ -1,0 +1,4 @@
+
+.rr_logo{ width: 100rpx; height: 100rpx; border-radius: 50%; line-height: 100rpx;
+text-align: center; color: #fff; background: orange; font-size: 40rpx;
+margin: 60rpx auto;}

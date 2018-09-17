@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/footer/index",
+    "pages/button/index",
+    "pages/dialog/index",
+    "pages/result/index",
+    "pages/search/index",
+    "pages/red-paper/index",
+    "pages/form/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "RRUI组件",
+    "navigationBarTextStyle": "black"
+  }
+}

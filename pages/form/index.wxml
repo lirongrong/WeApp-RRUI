@@ -1,0 +1,75 @@
+<form bindsubmit="formSubmit">
+  <view class="form flex flex_align_center">
+    <text class='form_text'>商户图片*</text>
+    <view class='flex_item tr' bindtap="imgUpload">
+      <image src='{{logo}}' class='form_admin_image' hidden="{{!isShowImg}}"></image>
+      <icon class='iconfont icon-wutu f25' hidden="{{isShowImg}}"></icon>
+      <input hidden='true' name="logo" value='{{logo}}' placeholder='请上传商户图片'/>
+    </view>
+    <icon class='iconfont icon-right ml10'></icon>
+  </view>
+
+  <view class="form flex flex_align_center">
+    <text class='form_text'>商户名称*</text>
+    <view class='flex_item'>
+      <input placeholder='请填写商户名称' type='text' class='form_input' name="name" value='{{name}}'></input>
+    </view>
+  </view>
+  <view class="form flex flex_align_center">
+    <text class='form_text'>联系方式*</text>
+    <view class='flex_item'>
+      <input placeholder='请填写手机号码' type='number' class='form_input colred' name="mobile" value='{{mobile}}' bindblur='blurMobile'></input>
+    </view>
+  </view>
+  <view class="form flex flex_align_center" hidden='{{id>0}}'>
+    <text class='form_text'>验证码*</text>
+    <view class='flex_item'>
+      <input placeholder='请输入验证码' type='number' class='form_input colred' name="mobileCode" value='{{mobileCode}}'></input>
+    </view>
+    <button class='btn_white_m f12 ml10' bindtap='tapCode'>{{codeText}}</button>
+  </view>
+  <view class="form flex flex_align_center">
+    <text class='form_text'>省市区域*</text>
+    <view class='flex_item'>
+      <picker mode="region" bindchange="bindRegionChange" value="{{[province,city,area]}}" custom-item="全部">
+        <view class="picker f14 tr">
+          {{province }}，{{city}}，{{area}}
+        </view>
+      </picker>
+      <input hidden='true' name="address" value='{{region}}'/>
+    </view>
+  </view>
+  <view class="form flex flex_align_center">
+    <text class='form_text'>详细地址*</text>
+    <view class='flex_item'>
+      <input placeholder='请填写地址' type='text' class='form_input colred' name="address" value='{{address}}'></input>
+    </view>
+  </view>
+  <view class="form ">
+    <picker mode="time" value="{{operatingStartTime}}" start="05:00" end="23:59" bindchange="bindStartTimeChange">
+        <view class="picker flex flex_align_center">
+          <text class='form_text'>营业开始时间</text>
+          <view class='tr flex_item'>{{operatingStartTime}}</view>
+          <icon class="animate iconfont icon-right" style="margin-top:-6rpx;"></icon>
+        </view>
+      </picker>
+  </view> 
+  <view class="form ">
+    <picker mode="time" value="{{operatingEndTime}}" start="05:00" end="23:59" bindchange="bindEndTimeChange">
+        <view class="picker flex flex_align_center">
+          <text class='form_text'>营业结束时间</text>
+          <view class='tr flex_item'>{{operatingEndTime}}</view>
+          <icon class="animate iconfont icon-right" style="margin-top:-6rpx;"></icon>
+        </view>
+      </picker> 
+  </view> 
+  <view class="form flex flex_align_center">
+    <text class='form_text'>商户介绍*</text>
+    <view class='flex_item'>
+      <input placeholder='请填写商户介绍' type='text' class='form_input colred' name="content" value='{{content}}'></input>
+    </view>
+  </view>
+  <button formType="submit" class='btn_bottom'>保存</button>
+</form>
+
+<!-- <btn-bottom text="{{text}}"></btn-bottom> -->

@@ -1,0 +1,51 @@
+<!--logo-->
+<text class="rr_logo db">RR</text>
+
+<!--基础组件-->
+<view class='rr_box'>
+  <view class='rr_box_title'>基础组件</view>
+  <view class='rr_box_con'>
+    <navigator class='rr_box_con_li flex' url='search/index'>
+      <text class='flex_item'>search</text>
+      <icon class='iconfont icon-right'></icon>
+    </navigator>
+    <navigator class='rr_box_con_li flex' url='button/index'>
+      <text class='flex_item'>button</text>
+      <icon class='iconfont icon-right'></icon>
+    </navigator>
+    <navigator class='rr_box_con_li flex' url='dialog/index'>
+      <text class='flex_item'>dialog</text>
+      <icon class='iconfont icon-right'></icon>
+    </navigator>
+    <navigator class='rr_box_con_li flex' url='result/index'>
+      <text class='flex_item'>result</text>
+      <icon class='iconfont icon-right'></icon>
+    </navigator>
+    <navigator class='rr_box_con_li flex' url='footer/index'>
+      <text class='flex_item'>footer</text>
+      <icon class='iconfont icon-right'></icon>
+    </navigator>
+  </view>
+</view>
+
+<!--form表单-->
+<view class='rr_box'>
+  <view class='rr_box_title'>form表单</view>
+  <view class='rr_box_con'> 
+    <navigator class='rr_box_con_li flex' url='form/index'>
+      <text class='flex_item'>form</text>
+      <icon class='iconfont icon-right'></icon>
+    </navigator>
+  </view>
+</view>
+
+<!--其他-->
+<view class='rr_box'>
+  <view class='rr_box_title'>其他</view>
+  <view class='rr_box_con'>
+    <navigator class='rr_box_con_li flex' url='red-paper/index'>
+      <text class='flex_item'>摇一摇-红包</text>
+      <icon class='iconfont icon-right'></icon>
+    </navigator> 
+  </view>
+</view>

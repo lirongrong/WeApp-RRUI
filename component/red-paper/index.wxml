@@ -1,0 +1,12 @@
+<!--红包弹框-->
+<view class='dialog_box' hidden="{{!isHidden}}">
+  <view class='dialog_box_bg animated fadeIn faster'></view>
+  <view class='red_paper_box animated bounceInDown faster'>
+    <view class='red_pager_box_bg'></view>
+    <view class='red_paper_box_con'>
+      <text class='db'>¥{{price}}</text>
+      <text class='db'>{{note}}</text>
+    </view>
+    <view class='red_paper_box_icon' bindtap='onClose'>¥</view>
+  </view>
+</view>

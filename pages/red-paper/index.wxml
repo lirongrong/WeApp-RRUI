@@ -1,0 +1,10 @@
+<!--按钮：摇一摇-->
+<view class='pay_box'>
+  <view class='pay_btn_yao' bindtap='onYaoYiYao'>
+    <icon class='iconfont icon-yaoyiyao'></icon>
+    摇一摇，抽红包
+  </view> 
+</view>
+
+<!--红包弹层-->
+<red-paper price="{{redPaperPrice}}" note="{{redPaperNote}}" isHidden="{{redPaperIsShow}}" bind:onclose="onCloseRedPaper"></red-paper>

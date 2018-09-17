@@ -1,0 +1,16 @@
+<view class='search flex flex_align_center'>
+  <icon class='iconfont icon-search'></icon>
+  <input class='searchInput flex_item' placeholder='{{placeholder}}'></input>
+  <icon class='iconfont icon-menu' catchtap='menuCall'></icon>
+  <view class='subMenu' hidden='{{isSubMenu}}'> 
+    <view class='subMenu_bg animated fadeIn faster'  bindtap='closeModel'></view>
+    <view class='subMenu_con animated fadeInRight faster' >
+      <view class='subMenu_right '>
+        <text class='ml10'>菜单</text>
+        <block wx:for="{{menu}}" wx:key="key">
+          <navigator class='subMenu_right_li' url='{{item.url}}'>{{item.name}}</navigator> 
+        </block>
+      </view> 
+    </view>
+  </view>
+</view>

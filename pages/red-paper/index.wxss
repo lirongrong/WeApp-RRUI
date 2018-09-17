@@ -1,0 +1,13 @@
+page{
+  background: #fff;
+}
+.pay_box{ margin:30rpx 30rpx 0;}
+
+.pay_btn_yao{ height: 80rpx; line-height: 80rpx; border-radius: 6rpx; text-align: center; background: #ff6e00; font-size: 32rpx; color: #ffff;}
+
+.pay_btn_yao icon{ font-size: 80rpx;}
+
+.pay_btn_confirm{ height: 88rpx; line-height: 88rpx; color: #333; background: #ffdd00;  border-radius: 6rpx; text-align: center; margin-top:60rpx; }
+
+
+

@@ -1,0 +1,4 @@
+<view class="page_con">
+  <button bindtap='onShowDialogOne'>显示dialog（可以输入input）</button>
+  <dialog id="domShowModal" title="{{modalTitle}}" placeholder="{{modalPlaceHolder}}" value="{{modalValue}}" modalid="{{modalId}}" bind:confirm="onConfirmOne"></dialog>
+</view>

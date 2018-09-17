@@ -1,0 +1,65 @@
+@import 'style/iconfont';
+@import 'style/animate.min.wxss';
+/**base_css**/ 
+button{ background: none; background: #fff;}
+.flex {  display: flex; }
+.flex_item { flex: 1;}
+.flex_item_3{ flex:0 0 33%;}
+.flex_item_5{ flex:0 0 50%;}
+.flex_wrap{ flex-wrap: wrap; }   /* flex可换行——容器*/
+.flex_align_center{  align-items:center; } /*垂直居中——容器*/
+.flex_justify_end{ justify-content:flex-end; }  /* 水平右对齐——容器 */
+.flex_justify_center{ justify-content: center; } /*水平中对齐——容器*/
+.flex_justify_between{ justify-content: space-between} /*水平两边对齐——容器*/
+.flex_justify_around{ justify-content: space-around} /*水平两边对齐留边——容器*/
+.flex_item_align_center{ align-self:center; }/*垂直中对齐——项目*/
+.flex_item_flex_basis{ flex-basis:.1rem; }
+.colfff{ color: #fff;}
+.colccc{ color: #ccc;}
+.col333{ color: #333;}
+.col666{ color: #666;}
+.col999{ color: #999;}
+.colred{ color: red;}
+.colblue{ color: #33ccff}
+.colorange{ color: #ff6e00;}
+.f10{ font-size: 20rpx;}
+.f12{ font-size: 24rpx;}
+.f14{ font-size: 28rpx;}
+.f16{ font-size: 32rpx;}
+.f18{ font-size: 36rpx;}
+.f25{ font-size: 50rpx;}
+.ml10{ margin-left: 20rpx;}
+.ml20{ margin-left: 40rpx;}
+.mt10{ margin-top: 20rpx;}
+.mt20{ margin-top:40rpx;}
+.mt30{ margin-top: 60rpx;}
+.mt05{ margin-top: 10rpx;}
+.p10{ padding:0 20rpx;}
+.db{ display: block;}
+.dib{ display: inline-block;}
+.tc{ text-align: center;}
+.tr{ text-align: right;}
+.tl{ text-align: left;}
+.pr{ position: relative;}
+.pa{ position: absolute;}
+.pf{ position: fixed;}
+.button-hover { background: none;}
+.animated.faster{animation-duration: .2s;}
+
+/**common_css**/ 
+page{background: #f8f8f8;}
+.page_con{ padding:20rpx;}
+.rr_box{ background: #fff;padding-left:30rpx; margin-top:20rpx;}
+.rr_box_title{ padding:20rpx 20rpx 20rpx 0; border-bottom: 2rpx solid #e6e6e6;}
+.rr_box_title_img{ width: 70rpx; height: 70rpx; border:2rpx solid #f5f5f5; border-radius: 4rpx; margin:20rpx 20rpx 0 0;}
+.rr_box_con_li{ padding:20rpx 20rpx 20rpx 0; border-bottom: 2rpx solid #f5f5f5; color: #333; }
+.rr_box_con_li:last-child{ border-bottom: none;}
+
+/*form表单*/
+.form{border-bottom:2rpx solid #f3f3f3; padding:25rpx 30rpx;}
+.form:last-child{box-shadow:0 12rpx 12rpx 12rpx #f8f8f8;}
+.form_text{ font-size: 34rpx; color: #333;flex-basis: 30%;}
+.form_input{ font-size: 34rpx; color: #747474; text-align: right;}
+.form_input.tl{ text-align: left;}
+.form_admin_image{ height: 90rpx; width: 90rpx;border-radius: 50%;}
+.form_input_border{ font-size: 24rpx; border-bottom:2rpx solid #e5e5e5;}
