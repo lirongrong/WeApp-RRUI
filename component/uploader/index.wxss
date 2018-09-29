@@ -1,0 +1,12 @@
+.pr{ position: relative;}
+.pa{ position: absolute;}
+/*身份名片上传加认证*/ 
+.id_card{ width: 540rpx; height: 294rpx; margin: 0 auto 52rpx;}
+.id_card_start,.id_card_start_border{ width: 100%; height: 100%;}
+.id_card_start_id{ width: 210rpx; height: 120rpx; left: 50%; margin-left: -105rpx; top:60rpx;}
+.id_card_start_text{ font-size: 28rpx;left: 0;right:0; top:200rpx;text-align: center; color: #b9b9b9;}
+.id_card_end{ left: 0; top:0; right:0; bottom:0;}
+.id_card_end image{ width: 100%; height: 294rpx;border: 2rpx solid #d5d5d5; box-sizing: border-box; z-index: 1;}
+.id_card_delete{ bottom:0; left: 0; right:0; text-align: center;background:rgba(0, 0, 0, 0.5);
+height:60rpx; line-height: 60rpx; color: #fff; font-size: 24rpx;}
+.id_card_loading{width: 100%; height: 294rpx;background:rgba(0, 0, 0, 0.5);color: #fff; line-height: 294rpx; top:0; left:0; text-align: center; right:0; z-index: 2; }

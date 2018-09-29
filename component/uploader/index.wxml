@@ -1,0 +1,17 @@
+<view class="pr id_card">
+    <view class="id_card_start pr" bindtap="chooseImage" >
+      <image src="./images/upload_bg.png" class='id_card_start_border'></image>
+      <image wx:if="{{idType==1}}" src='./images/idcard_01.png' class='id_card_start_id pa'></image>
+      <image wx:else src='./images/idcard_02.png' class='id_card_start_id pa'></image>
+      <text class='id_card_start_text pa'>请上传身份证{{idType==1?'正':'反'}}面</text>
+    </view> 
+    <view class="id_card_end pa" bindtap="previewImage" wx:for="{{files}}" wx:key="*this" hidden="{{files.length!=1}}">
+        <image src="{{item}}" mode="scaleToFill" />
+    </view> 
+    <view class="pa id_card_delete" hidden="{{files.length<1 || isLoading}}" bindtap="removeCard" >
+         删除名片  
+    </view>
+    <view class="id_card_loading pa" hidden="{{!isLoading}}">
+        <text>上传中...</text>
+    </view>
+</view>

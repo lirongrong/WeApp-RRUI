@@ -28,7 +28,7 @@ Page({
   formSubmit: function (e) {
     var that = this;
     let data = e.detail.value;
-    // data.id = that.data.id;
+    data.id = that.data.id;
     console.log(data);
     // let dataName = { 'name': '商户名称', 'mobile': '联系方式' }
     // let result = v.required(data, dataName)

@@ -7,7 +7,8 @@
     "pages/result/index",
     "pages/search/index",
     "pages/red-paper/index",
-    "pages/form/index"
+    "pages/form/index",
+    "pages/uploader/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -6,23 +6,23 @@
   <view class='rr_box_title'>基础组件</view>
   <view class='rr_box_con'>
     <navigator class='rr_box_con_li flex' url='search/index'>
-      <text class='flex_item'>search</text>
+      <text class='flex_item'>Search</text>
       <icon class='iconfont icon-right'></icon>
     </navigator>
     <navigator class='rr_box_con_li flex' url='button/index'>
-      <text class='flex_item'>button</text>
+      <text class='flex_item'>Button</text>
       <icon class='iconfont icon-right'></icon>
     </navigator>
     <navigator class='rr_box_con_li flex' url='dialog/index'>
-      <text class='flex_item'>dialog</text>
+      <text class='flex_item'>Dialog</text>
       <icon class='iconfont icon-right'></icon>
     </navigator>
     <navigator class='rr_box_con_li flex' url='result/index'>
-      <text class='flex_item'>result</text>
+      <text class='flex_item'>Result</text>
       <icon class='iconfont icon-right'></icon>
     </navigator>
     <navigator class='rr_box_con_li flex' url='footer/index'>
-      <text class='flex_item'>footer</text>
+      <text class='flex_item'>Footer</text>
       <icon class='iconfont icon-right'></icon>
     </navigator>
   </view>
@@ -30,10 +30,14 @@
 
 <!--form表单-->
 <view class='rr_box'>
-  <view class='rr_box_title'>form表单</view>
+  <view class='rr_box_title'>表单组件</view>
   <view class='rr_box_con'> 
     <navigator class='rr_box_con_li flex' url='form/index'>
-      <text class='flex_item'>form</text>
+      <text class='flex_item'>Form</text>
+      <icon class='iconfont icon-right'></icon>
+    </navigator>
+    <navigator class='rr_box_con_li flex' url='uploader/index'>
+      <text class='flex_item'>Uploader 图片上传</text>
       <icon class='iconfont icon-right'></icon>
     </navigator>
   </view>

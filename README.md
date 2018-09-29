@@ -16,6 +16,7 @@
 |    |——result    结果页  
 |    |——search    搜索页  
 |    |——form      form表单  
+|    |——uploader  图片上传 
 |——utils  
 ```
 
