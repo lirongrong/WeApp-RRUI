@@ -20,4 +20,5 @@
 |——utils  
 ```
 
-<img src="images/rrui.gif"/>
+<img src="images/rrui01.gif"/>
+<img src="images/rrui02.gif"/>
