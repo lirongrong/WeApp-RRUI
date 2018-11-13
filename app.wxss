@@ -22,6 +22,8 @@ button{ background: none; background: #fff;}
 .colred{ color: red;}
 .colblue{ color: #33ccff}
 .colorange{ color: #ff6e00;}
+.bgblue{ background: #33ccff;}
+.bgccc{ background: #ccc;}
 .f10{ font-size: 20rpx;}
 .f12{ font-size: 24rpx;}
 .f14{ font-size: 28rpx;}
@@ -63,3 +65,6 @@ page{background: #f8f8f8;}
 .form_input.tl{ text-align: left;}
 .form_admin_image{ height: 90rpx; width: 90rpx;border-radius: 50%;}
 .form_input_border{ font-size: 24rpx; border-bottom:2rpx solid #e5e5e5;}
+
+/*button*/
+.btn{ height: 90rpx; line-height: 90rpx; text-align: center; margin:20rpx;}

@@ -24,24 +24,29 @@ Page({
   },
   onLoad: function (options) { 
   },
-  /**确认 */
+  /**提交 */
   formSubmit: function (e) {
     var that = this;
-    let data = e.detail.value;
-    data.id = that.data.id;
+    let data = e.detail.value; 
     console.log(data);
-    // let dataName = { 'name': '商户名称', 'mobile': '联系方式' }
-    // let result = v.required(data, dataName)
-    var result = true;
-     
-    //验证通过提交
-    if (result) {
-      if (app.globalData.appUser.id > 0) {
-        save(app.globalData.appUser.id, data);
-      } else {
-         
-      }
+    if(data.logo == ''){
+      wx.showToast({
+        title: '请输入商户图片',
+        icon:'none'
+      });
+      return false;
     }
+    if(data.name.trim() == ''){
+      wx.showToast({
+        title: '请输入商户名称',
+        icon:'none'
+      });
+      return false
+    } 
+  },
+  /**重置 */
+  formReset:function(e){
+
   },
   /**上传图片 */
   imgUpload: function () {
@@ -50,16 +55,21 @@ Page({
       count: 1,
       success: function (res) {
         let localUrl = res.tempFilePaths[0];
+        console.log(localUrl);
+        that.setData({
+          logo:localUrl,
+          isShowImg: true
+        })
         //上传到服务器
-        util.upload(localUrl, "shop", function (res) {
-          var data = JSON.parse(res.data);
-          // var model = that.data.model;
-          // that.image = config.imgHost + data.path;
-          that.setData({
-            logo: config.imgHost + data.path,
-            isShowImg: true
-          });
-        });
+        // util.upload(localUrl, "shop", function (res) {
+        //   var data = JSON.parse(res.data);
+        //   // var model = that.data.model;
+        //   // that.image = config.imgHost + data.path;
+        //   that.setData({
+        //     logo: config.imgHost + data.path,
+        //     isShowImg: true
+        //   });
+        // });
       },
     })
   },

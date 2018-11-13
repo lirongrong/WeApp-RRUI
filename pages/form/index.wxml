@@ -1,4 +1,4 @@
-<form bindsubmit="formSubmit">
+<form bindsubmit="formSubmit" bindreset="formReset">
   <view class="form flex flex_align_center">
     <text class='form_text'>商户图片*</text>
     <view class='flex_item tr' bindtap="imgUpload">
@@ -48,7 +48,7 @@
   <view class="form ">
     <picker mode="time" value="{{operatingStartTime}}" start="05:00" end="23:59" bindchange="bindStartTimeChange">
         <view class="picker flex flex_align_center">
-          <text class='form_text'>营业开始时间</text>
+          <text class='form_text'>营业开始时间  </text>
           <view class='tr flex_item'>{{operatingStartTime}}</view>
           <icon class="animate iconfont icon-right" style="margin-top:-6rpx;"></icon>
         </view>
@@ -69,7 +69,8 @@
       <input placeholder='请填写商户介绍' type='text' class='form_input colred' name="content" value='{{content}}'></input>
     </view>
   </view>
-  <button formType="submit" class='btn_bottom'>保存</button>
+  <button formType="submit" class='btn bgblue colfff'>保存</button>
+  <button formType="reset"  class='btn bgccc colfff' >重置</button>
 </form>
 
 <!-- <btn-bottom text="{{text}}"></btn-bottom> -->
